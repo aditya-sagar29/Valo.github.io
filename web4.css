@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    /* z-index: -2; */
+   
+}
+
+.navbar{
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    /* position: relative; */
+    /* position: fixed; */
+    
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    left: 120px;
+    padding-right: 20px;
+}
+
+.rnavbar{
+    justify-self: end;
+    padding-top: 6px;
+    width:40%;
+    position: absolute;
+    right: 80px;
+    text-align: end;
+    top: 20px;
+}
+
+/*.secPage{
+    /* background-image: linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url(bg.jpg); */
+    /* height: auto;
+    width: 50%; */
+    /* background-size: cover;
+    background-position: center; */
+    /* border: 2px solid brown; }*/
+
+
+
+
+.secPAGE h1{
+    width: 50%;
+    margin: 50px;
+    margin-left: 90px;
+}
+
+
+
+
+#see{
+    width: 15%;
+    margin:0px auto 10%;
+    /* border: 2px solid blue; */
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 390px;
+    background-color: rgb(56, 54, 54);
+    color: #fff;
+    border-radius: 6px;
+    padding: 7px;
+    
+    
+} 
+
+.leftCard{
+    height:60vh;
+    width: 50vw;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 20px;
+    background-image: url(allAGENTS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.leftCard:hover{
+    border: 2px solid grey;
+    
+}
+
+.leftCard h2{
+    position: relative;
+    top: 310px;
+    left: -130px;
+    
+}
+
+.rightCard{
+    
+    height: 15vh;
+    background-image: linear-gradient(to right,rgba(255,255,255,0.2),rgba(255,255,255,0.1));
+    width: 80%;
+    margin-top: 2%;
+    border-radius: 20px;
+    
+    
+
+}
+
+.rightCard:hover{
+    
+    cursor: pointer;
+    border: 3px solid grey ;
+    
+}
+
+.rightCard h4{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    
+}
+
+
+#sign{
+    
+    /* border:3px solid red; */
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(194, 44, 44);
+    
+}
+
+.fourdiv{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* border: 2px solid brown; */
+
+
+}
+.fl{
+    display: flex;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+}
+
+.search{
+    background-color: transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px!important;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    outline: 0;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#card1{
+    background-image: url(jett.jpg);
+    background-repeat: no-repeat;
+    width: 30%;
+    padding-left: 5px;
+}
+#card2{
+    background-image: url(fade.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    padding-left: 5px;
+}
+#card3{
+    background-image: url(chamber4Extended.png);
+    background-size: cover;
+    width: 75%;
+    padding-left: 5px;
+}
+#card4{
+    background-image: url(astra1.jpg);
+    /* background-repeat: no-repeat; */
+    width: 90%;
+    padding-left: 5px;
+}
+
+/* .page3{
+    background-color: rgba(40, 39, 37, 0.89);
+    color: white;
+    
+}
+
+.body3{
+    
+    border: 2px solid red;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 40vh;
+    border: 2px solid grey;
+} */
+.body3{
+    color: white;
+    background-color: rgb(40, 37, 37);
+    padding: 60px 60px;
+}
+
+.page3{
+    display: grid;
+    width: 90%;
+    margin: 30px auto;
+    /* border: 2px solid red; */
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    color: white;
+}
+
+.boxes{
+    
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#box1{
+    /* background-color: red; */
+    background-image: url(lol.jpg);
+    /* background-image: url(lolBANNER.jpg); */
+    grid-column: 1/3;
+    height: 300px;
+    border-radius: 20px;
+    background-position-x: -45px;
+}
+#box2{
+    /* background-color: pink; */
+    background-image: url(val-card-bg-1800-fade.jpg);
+    background-position-x: -20px;
+    grid-column: 3/6;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+#box3{
+    /* background-color: yellow; */
+    background-image: url(tft-card-bg-1800.jpg);
+    height: 200px;
+    width: 400px;
+    grid-column: 1/2;
+    border-radius: 20px;
+
+    
+}
+#box4{
+    /* background-color: brown; */
+    background-image: url(lol-wildrift-productimage.png);
+    grid-column: 2/4;
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-position-y: -40px;
+    /* background-position-x: -20px; */
+
+    
+}
+#box5{
+    /* background-color: blue; */
+    background-image: url(legends-of-runeterra-productimage.png);
+    grid-column: 4/6;
+    height: 200px;
+    border-radius: 20px;
+    /* background-position-x: -60px; */
+    width: 400px;
+    
+}
+#box6{
+    /* background-color: purple; */
+    background-image: url(ruined-king-productimage.png);
+    grid-column: 1/2;
+    height: 200px;
+    border-radius: 20px;
+    background-position-x: -40px;
+}
+#box7{
+    /* background-color: orange; */
+    background-image: url(hextetch-mayhem-card-bg-1800.jpg);
+    grid-column: 2/4;
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-position-x: -40px;
+}
+#box8{
+    /* background-color: grey; */
+    background-image: url(convrgence-productimage.png);
+    grid-column: 4/6;
+    height: 200px;
+    border-radius: 20px;
+    background-position-x: -40px;
+}
+
+#overlay{
+    background-image: url(lolBANNER.png);
+    height: 80px;
+    width: 210px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#overlay1{
+    background-image: url(valoCard.png);
+    height: 120px;
+    width: 165px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    
+}
+
+#overlay2{
+    background-image: url(tacticsCard.png);
+    height: 120px;
+    width: 165px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#overlay3{
+    background-image: url(lolRiftCard.png);
+    height: 100px;
+    width: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#overlay4{
+    background-image: url(runeterraCard.png);
+    height: 60px;
+    width: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+#overlay5{
+    background-image: url(ruinedCard.png);
+    height: 90px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+#overlay6{
+    background-image: url(hexCard.png);
+    height: 80px;
+    width: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+#overlay7{
+    background-image: url(convCard.png);
+    height: 40px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+/* .dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    position: absolute;
+    left: 0;
+    right: calc(100% + .25rem);
+} */
